@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0;
+}
+ 
+
+.head{
+    background-color: rgba(255, 144, 14, 0.1);
+    
+    
+
+}
+.navmenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.navl{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.navul{
+    display: flex;
+    list-style: none;
+    gap: 65px;
+}
+.nava{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.headafter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.headpara{
+    
+}
+.headbig{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 40px;
+     margin-bottom: 40px;
+}
+.headsmall{
+    color: rgba(66, 66, 66, 1);
+    padding-top: 0px;
+    line-height: 1.8rem;
+    margin-bottom: 32px;
+}
+.headbtn{
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgba(255, 144, 14, 1);
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: white;
+    cursor: pointer;
+}
+.headimg{
+    width: 100%;
+    padding-bottom: 45px;
+    max-width: 1440px;
+}
+.maino{
+    display: flex;
+    justify-content: center;
+    padding: 85px 301px;
+    gap: 73px;
+    margin-bottom: 130px;
+}
+.mainoi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.mainopara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bigmaino{
+    font-size: 3rem;
+}
+.quick{
+    font-weight: 500;
+    color: rgba(66, 66, 66, 1);
+}
+.of{
+    color: rgba(19, 19, 19, 1);
+    font-weight: bold;
+}
+.feature{
+    color: rgba(255, 144, 14, 1);
+     font-weight: bold;
+}
+.smallmaino{
+    color: rgba(66, 66, 66, 1);
+    line-height: 1.7rem;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.mainobtn{
+     font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgba(255, 144, 14, 1);
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    color: white;
+    cursor: pointer;
+}
