@@ -129,3 +129,153 @@
     color: white;
     cursor: pointer;
 }
+.onek{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 130px;
+    
+}
+.yellow{
+    display: flex;
+    gap: 21px;
+    font-weight: bold;
+    font-size: 3rem;
+    align-items: center;
+    margin-bottom: 24px;
+
+}
+
+.lyellow{
+    width: 5px;
+    height: 125px;
+    background-color: rgba(255, 144, 14, 1);
+   
+}
+.lyparaa,.para{
+    color: rgba(66, 66, 66, 1);
+    line-height: 1.7rem;
+    margin-bottom: 30px;
+}
+.lbox{
+    display: flex;
+    flex-direction: column;
+    width: 586px;
+    height: 120px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-right: 146px;
+    justify-content: center;
+}
+.headbox{
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.upre{
+    position: absolute;
+    width: 342px;
+    height: 180px;
+    margin-top: 860px;
+    margin-left: 250px;
+    background-color: rgba(255, 144, 14, 1);
+    text-align: center;
+    padding-top: 46px;
+    border-radius: 8px;
+    
+
+}
+.uprebig{
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 46px;
+}
+.upresmall{
+    font-size: 1.5rem;
+     color: white;
+     padding-bottom: 45px;
+}
+.dibba{
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 180px;
+}
+.dibba .hu,{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.dibbah{
+    display: flex;
+    gap: 124px;
+   
+   margin-left: 50px;
+    margin-top: 107px;
+    
+}
+.dibbas{
+    height: 241px;
+   width: 241px;
+   border: 1px solid rgba(255, 144, 14, 1) ;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   
+   
+  
+}
+.dibimg{
+    margin-bottom: 7px;
+}
+.dibbas h3{
+     margin-bottom: 7px;
+     font-size: 3rem;
+     font-weight: 600;
+     color: rgba(66, 66, 66, 1);
+}
+.dibbas p{
+    font-size: 1.35rem;
+     font-weight: 600;
+     color: rgba(66, 66, 66, 1);
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 216px;
+}
+.huhu{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.foot2{
+    display: flex;
+    gap: 155px;
+    margin-bottom: 130px;
+
+}
+.foot3{
+    height: 100px;
+      background-color: rgba(255, 144, 14, 0.1);
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(66, 66, 66, 1);
+    font-size: 1.35rem;
+}
