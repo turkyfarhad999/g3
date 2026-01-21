@@ -280,6 +280,9 @@ footer{
     font-size: 1.35rem;
 }
 @media screen and (max-width:576px){
+    .head{
+        max-width: 100%;
+    }
     
     .navmenu{
         flex-direction: column;
@@ -323,15 +326,17 @@ footer{
     }
     .lbox{
         flex-wrap: nowrap;
-        max-width: 540px;
+        max-width: 380px;
         height: 150px;
         width: 100%;
-        padding-left: 5px;
+        padding: auto;
+    
         margin: auto;
         
     }
     .oimg{
-        padding-left: 25px;
+        width: 80%;
+        margin: auto;
     }
     .oimage{
         max-width: 100%
@@ -342,6 +347,7 @@ footer{
         position: static;
         margin-top: 0;
         margin: 0 auto;
+        
     }
     .hu{
         padding: 10px;
