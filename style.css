@@ -326,9 +326,9 @@ footer{
     }
     .lbox{
         flex-wrap: nowrap;
-        max-width: 380px;
-        height: 150px;
-        width: 100%;
+        max-width: 340px;
+        height: 180px;
+        width: 80%;
         padding: auto;
     
         margin: auto;
