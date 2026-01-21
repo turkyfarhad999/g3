@@ -279,3 +279,93 @@ footer{
     color: rgba(66, 66, 66, 1);
     font-size: 1.35rem;
 }
+@media screen and (max-width:576px){
+    
+    .navmenu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navl{
+        font-size: 2rem;
+    }
+    .navul{
+        gap: 20px;
+    }
+    .headbig{
+        font-size: 3rem;
+    }
+    .headsmall,{
+        padding: 0 5px;
+    }
+    .maino{
+        flex-direction: column;
+    
+       padding: 0;
+       
+    }
+    .mainoi{
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+    }
+    .smallmaino{
+        margin:12px 10px;
+    }
+    .mainobtn{
+        margin: auto;
+    }
+    .onek{
+        flex-direction: column;
+       
+       
+    }
+    .lyparaa{
+        margin-left: 15px;
+    }
+    .lbox{
+        flex-wrap: nowrap;
+        max-width: 540px;
+        height: 150px;
+        width: 100%;
+        padding-left: 5px;
+        margin: auto;
+        
+    }
+    .oimg{
+        padding-left: 25px;
+    }
+    .oimage{
+        max-width: 100%
+        
+        
+    }
+    .upre{
+        position: static;
+        margin-top: 0;
+        margin: 0 auto;
+    }
+    .hu{
+        padding: 10px;
+    }
+    .para{
+        margin-left: 10px;
+    }
+    .dibbah{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .dibbas{
+        margin: auto;
+    }
+    .foot2{
+        flex-wrap: wrap;
+        gap: 70px;
+        justify-content: center;
+    }
+    .foot3{
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    
+    
+}
